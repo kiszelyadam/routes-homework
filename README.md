@@ -1,27 +1,18 @@
-# RoutesHomework
+# Feladat
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+- Készíts négy koponenst. Mondjuk first, second, third, fourth néven.
+- Lazy loading module-val húzd be őket az app routing module-ba.
+- A fourth komponensnek legyen két gyerek útvonalja: (fifth, sixth).
+- A second komponensnek legyen egy gyerek útvonalja, ami dinamikusan változik.
+- A first komponensnek adjunk át query paramsba valamilyen tetszőleges értéket, és nyerjük ki console-ban.
+- A second komponensnek adjunk át route-data-ba egy statikus szöveget, és írassuk ki a képernyőre.
+- Fifth komponensnek adjunk át egy fragmentet, és görgessünk le egy tetszőleges html elemhez.
+- First komponensre tegyünk egy guardot, ami csak akkor enged navigálni, ha van query param az útvonalhoz.
+- Sixth komponensre tegyünk egy deactivate guardot.
+- Third komponensnek resolverrel adjunk át egy statikus szöveget, és jelenítsük meg a képernyőn.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Bónusz
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Hozz létre egy standalone komponenst, és húzd be lazy loadinggal.
+- Hozz létre hozzá egy standalone pipe-ot.
